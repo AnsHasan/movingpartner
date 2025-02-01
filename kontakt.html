@@ -1,0 +1,44 @@
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('service_ymkjvgm')
+</script>
+
+
+
+<div id="angebote" class="col-lg-6 col-sm-8 top-content-w3l mt-sm-0 mt-5 pt-sm-0 pt-4">
+    <div class="form-content ml-sm-left mx-auto">
+        <h3 class="title-main-2 mb-4">
+            Kostenloses Angebot</h3>
+        <form id="contactForm">
+            <input type="text" name="Vorname / Name" id="w3lName" placeholder="Name" required="">
+            <input type="email" name="Email" id="w3lEmail" placeholder="Email" required="">
+            <input type="tel" name="Telefonnummer" id="w3lEmail" placeholder="Telefon" required="">
+            <input type="text" name="MoveFrom" id="w3lMoveFrom" placeholder="Umzug von" required="">
+            <input type="text" name="MoveTo" id="w3lMoveTo" placeholder="Umzug nach" required="">
+            <input type="date" name="MoveDate" id="w3lMoveDate" placeholder="Moving Date" required="">
+            
+            <textarea name="SpecialRequests" id="w3lSpecialRequests" placeholder="Nachricht" rows="4"></textarea>
+            <label>Zusätzlicher Dienst</label>
+            <div class="container-checkbox">
+              
+              <label>
+                  <input type="checkbox">
+                  <span>Reinigung</span>
+              </label>
+              <label>
+                  <input type="checkbox">
+                  <span>Räumung</span>
+              </label>
+              <label>
+                  <input type="checkbox">
+                  <span>Entsorgung</span>
+              </label>
+          </div>
+            <button class="btn btn-style mt-sm-3" id="button" type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<script src="./assets/js/emailjs.js" defer></script>
