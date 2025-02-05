@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestätigung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 10px;
+        }
+        .modal-Bestätigung {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            max-width: 90%;
+        }
+        .gif-container {
+            margin: 10px 0;
+        }
+        .gif-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        .back-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            .modal {
+                padding: 15px;
+            }
+            .back-button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="modal-Bestätigung">
+        <h2>Vielen Dank!</h2>
+        <div class="gif-container">
+            <img src="Bestätigung_gif.gif" alt="Bestätigung gif" width="200">
+        </div>
+        <p>Ihre Anfrage wurde erfolgreich gesendet.</p>
+        <a href="home-page.html" class="back-button">← Zurück zur Startseite</a>
+    </div>
+</body>
+</html>
