@@ -33,3 +33,9 @@
   to = "/dienstleistungen"
   status = 301
   force = true
+
+  [[redirects]]
+  from = "/pages/umzug"
+  to = "/dienstleistungen"
+  status = 301
+  force = true
