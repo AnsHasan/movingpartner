@@ -3,3 +3,33 @@
   to = "/home-page.html"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/pages/reinigung"
+  to = "/dienstleistungen"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pages/uber-uns"
+  to = "/uber-uns"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pages/internationaler-umzug-online-offerte"
+  to = "/auslandsumzuege"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pages/unser-service"
+  to = "/dienstleistungen"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pages/lagerung-online-offerte"
+  to = "/dienstleistungen"
+  status = 301
+  force = true
